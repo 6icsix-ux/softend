@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note-taking App</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="{% static 'images/logo.png' %}" alt="Logo">
+            </div>
+            <div class="header-buttons">
+                <a href="/login/" class="btn btn-login">เข้าสู่ระบบ</a>
+                <a href="/register/" class="btn btn-register">สมัครสมาชิก</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Welcome to Note-taking App</h1>
+    </main>
+</body>
+</html>
